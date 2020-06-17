@@ -1,0 +1,14 @@
+#ifndef OCTOPUS_SETTING_H_
+#define OCTOPUS_SETTING_H_
+
+#define OCTOPUS_SAME_CARD_TIMEOUT       3000
+
+#define OCTOPUS_SYSTEM_CODE             0x8008
+#define OCTOPUS_REQUEST_CODE            0x01
+
+#define OCTOPUS_BALANCE_SERVICE_CODE    0x117
+#define OCTOPUS_BALANCE_SERVICE_BLOCK   0x8000
+
+#define OCTOPUS_BALANCE_OFFSET 500 //350 or 500 for old or new octopus card
+
+#endif
